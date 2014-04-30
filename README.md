@@ -4,10 +4,12 @@
 
 ##Part One
 
+```
 addi $s0, $0, 44
 addi $s1, $0, -37
 addi $s2, $s0, $s1
 sw $s2, 0x54($0)
+```
 
 -load register s0 with decimal 44
 -load register s1 with decimal -37
