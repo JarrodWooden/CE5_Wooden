@@ -67,7 +67,8 @@ sign extend from the control path graph.
 
 Below you can see my truth table:
 
-() -- still need to insert the picture of the truth table.
+![alt text](https://raw.githubusercontent.com/JarrodWooden/CE5_Wooden/master/Truth_Table.jpg "The Truth Table")
+
 
 Next step to my design process was figuring out how to implement the truth table on the control path graph.
 
@@ -81,7 +82,7 @@ connected the new multiplexer to the `1` of the old multiplexer of sign extend.
 
 Below is a picture of the control path I made to implement the `ori` instruction:
 
-() -- still need to insert the picture of the control path
+![alt text](https://raw.githubusercontent.com/JarrodWooden/CE5_Wooden/master/Datapath_Drawing.jpg "Datapath Drawing")
 
 After I had everything hooked up I wrote out what the instruction would be to make the `ori` work and wrote out the 
 machine code and OR'd the values together and changed it to a hexidecimal number to test what the value should be
